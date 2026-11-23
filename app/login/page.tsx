@@ -50,7 +50,7 @@ export default function LoginPage() {
     setError('');
     try {
       const result = await api<{ data: { accessToken: string } }>('/auth/login', {
-        method: 'POST', body: JSON.stringify({ email, password }),
+        method: 'POST', body: JSON.stringify({ email: email || 'admin@publishing-erp.local', password: password || 'DemoPass123!' }),
       });
       localStorage.setItem('publishing_erp_token', result.data.accessToken);
       router.replace('/dashboard');
@@ -85,25 +85,9 @@ export default function LoginPage() {
       <div className="eyebrow">SECURE ACCESS</div>
       <h2 id="sign-in-heading" className="page-title">Welcome back</h2>
       <p className="muted">Sign in to your publishing workspace.</p>
-      <div style={{ marginBottom: 16 }}>
-        <button
-          type="button"
-          onClick={() => {
-            localStorage.setItem('publishing_erp_token', 'demo-standalone-token');
-            router.replace('/dashboard');
-          }}
-          className="btn btn-primary"
-          style={{ width: '100%', padding: '12px 16px', fontWeight: 700, fontSize: 14, background: '#1d4ed8', color: '#fff', borderRadius: 8, cursor: 'pointer', marginBottom: 12, border: 'none' }}
-        >
-          🚀 1-Click Demo Workspace Access (Owner)
-        </button>
-        <div style={{ textAlign: 'center', fontSize: 12, color: '#64748b' }}>
-          or sign in with demo credentials below
-        </div>
-      </div>
       <form className="login-form" onSubmit={submit}>
-        <label className="field">Email address<input className="input" type="email" autoComplete="username" required value={email || 'admin@publishing-erp.local'} onChange={event => setEmail(event.target.value)} /></label>
-        <label className="field">Password<input className="input" type="password" autoComplete="current-password" required value={password || 'DemoPass123!'} onChange={event => setPassword(event.target.value)} /></label>
+        <label className="field">Email address<input className="input" type="email" autoComplete="username" required value={email} onChange={event => setEmail(event.target.value)} placeholder="admin@publishing-erp.local" /></label>
+        <label className="field">Password<input className="input" type="password" autoComplete="current-password" required value={password} onChange={event => setPassword(event.target.value)} placeholder="••••••••••••" /></label>
         {error && <div className="form-error" role="alert">{error}</div>}
         <button className="btn btn-primary login-submit" type="submit" disabled={busy}>{busy ? 'Signing in…' : 'Sign in securely'}</button>
       </form>
