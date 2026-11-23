@@ -155,8 +155,339 @@ export function handleMockRequest(rawPath: string, options: RequestInit = {}): M
   if (boothMatch) {
     const fairId = boothMatch[1];
     if (mockResponses[path]) return { status: 200, data: mockResponses[path] };
-    const booths = (mockDb.fair_booths || []).filter((b: any) => b.fair_id === fairId);
+    const booths = (mockDb.fair_booths || []).filter((b: any) => b.fair_id === fairId || b.event_id === fairId);
     return { status: 200, data: { data: booths } };
+  }
+
+  // /fair/events/:id/staff
+  const fairStaffMatch = path.match(/^\/fair\/events\/([a-f0-9-]+)\/staff$/i);
+  if (fairStaffMatch) {
+    const fairId = fairStaffMatch[1];
+    if (mockResponses[path]) return { status: 200, data: mockResponses[path] };
+    const staff = (mockDb.fair_staff_assignments || []).filter((s: any) => s.fair_id === fairId || s.event_id === fairId);
+    return {
+      status: 200,
+      data: {
+        data: staff.length ? staff : [
+          {
+            id: 'staff-demo-1',
+            event_id: fairId,
+            booth_id: 'booth-demo-1',
+            booth_code: 'B-01',
+            booth_name: 'Main Pavilion Counter',
+            user_id: '2c821459-2f6d-45c4-9b50-b92d20d6dff6',
+            user_name: 'Tanvir Ahmed Chowdhury',
+            user_email: 'tanvir@publishing-erp.local',
+            staff_role: 'salesperson',
+            shift_start: '2026-02-01T10:00:00Z',
+            shift_end: '2026-02-28T21:00:00Z',
+            status: 'active'
+          },
+          {
+            id: 'staff-demo-2',
+            event_id: fairId,
+            booth_id: 'booth-demo-1',
+            booth_code: 'B-01',
+            booth_name: 'Main Pavilion Counter',
+            user_id: '7949797a-dcc2-4d67-8b3c-a88774ade2f4',
+            user_name: 'Mahmudul Haque',
+            user_email: 'mahmud@publishing-erp.local',
+            staff_role: 'cashier',
+            shift_start: '2026-02-01T10:00:00Z',
+            shift_end: '2026-02-28T21:00:00Z',
+            status: 'active'
+          }
+        ]
+      }
+    };
+  }
+
+  // /fair/events/:id/stock
+  const fairStockMatch = path.match(/^\/fair\/events\/([a-f0-9-]+)\/stock$/i);
+  if (fairStockMatch) {
+    const fairId = fairStockMatch[1];
+    const fairs = mockDb.fair_events || [];
+    const event = fairs.find((e: any) => e.id === fairId || e.event_code === fairId) || fairs[0] || {};
+    const booths = (mockDb.fair_booths || []).filter((b: any) => b.fair_id === fairId || b.event_id === fairId);
+    return {
+      status: 200,
+      data: {
+        data: {
+          event,
+          booths,
+          currentStock: [
+            {
+              item_id: 'item-001',
+              item_code: 'BK-NOV-001',
+              item_name: 'Nirbashito Shonglap (Hardcover)',
+              warehouse_id: 'wh-fair-01',
+              warehouse_name: 'Ekushey Pavilion Stall Warehouse',
+              booth_code: 'B-01',
+              booth_name: 'Main Pavilion Counter',
+              on_hand_qty: 350,
+              average_unit_cost: 145.00
+            },
+            {
+              item_id: 'item-002',
+              item_code: 'BK-POE-002',
+              item_name: 'Dhulimukto Akash (Poetry Anthology)',
+              warehouse_id: 'wh-fair-01',
+              warehouse_name: 'Ekushey Pavilion Stall Warehouse',
+              booth_code: 'B-01',
+              booth_name: 'Main Pavilion Counter',
+              on_hand_qty: 280,
+              average_unit_cost: 95.00
+            }
+          ],
+          transfers: [
+            {
+              id: 'tr-001',
+              item_id: 'item-001',
+              item_code: 'BK-NOV-001',
+              source_warehouse_id: 'wh-central-01',
+              destination_warehouse_id: 'wh-fair-01',
+              source_warehouse_name: 'Central Dhaka Warehouse',
+              destination_warehouse_name: 'Ekushey Pavilion Stall Warehouse',
+              quantity: 500,
+              received_qty: 500,
+              status: 'received',
+              created_at: '2026-01-28 14:00',
+              received_at: '2026-01-28 17:30'
+            }
+          ],
+          availableStock: [
+            {
+              warehouse_id: 'wh-central-01',
+              warehouse_name: 'Central Dhaka Warehouse',
+              warehouse_code: 'WH-DAC-01',
+              item_id: 'item-001',
+              item_code: 'BK-NOV-001',
+              item_name: 'Nirbashito Shonglap (Hardcover)',
+              on_hand_qty: 4500,
+              average_unit_cost: 145.00
+            }
+          ]
+        }
+      }
+    };
+  }
+
+  // /fair/events/:id/sales
+  const fairSalesMatch = path.match(/^\/fair\/events\/([a-f0-9-]+)\/sales$/i);
+  if (fairSalesMatch) {
+    const fairId = fairSalesMatch[1];
+    const fairs = mockDb.fair_events || [];
+    const event = fairs.find((e: any) => e.id === fairId || e.event_code === fairId) || fairs[0] || {};
+    const booths = (mockDb.fair_booths || []).filter((b: any) => b.fair_id === fairId || b.event_id === fairId);
+    return {
+      status: 200,
+      data: {
+        data: {
+          event,
+          booths,
+          availableStock: [
+            {
+              item_id: 'item-001',
+              warehouse_id: 'wh-fair-01',
+              on_hand_qty: 350,
+              average_unit_cost: 145.00,
+              item_code: 'BK-NOV-001',
+              item_name: 'Nirbashito Shonglap (Hardcover)',
+              warehouse_name: 'Ekushey Pavilion Stall Warehouse',
+              booth_id: 'booth-demo-1',
+              booth_code: 'B-01',
+              booth_name: 'Main Pavilion Counter',
+              cover_price: 350.00
+            }
+          ],
+          recentReceipts: (mockDb.fair_sales_receipts || []).slice(0, 20).map((r: any) => ({
+            ...r,
+            booth_id: r.booth_id || 'booth-demo-1',
+            booth_code: r.booth_code || 'B-01',
+            booth_name: r.booth_name || 'Main Pavilion Counter',
+            cashier_name: r.cashier_name || 'Mahmudul Haque',
+            lines: (mockDb.fair_sales_receipt_lines || []).filter((l: any) => l.receipt_id === r.id)
+          })),
+          kpis: {
+            totalRevenue: 225177.43,
+            totalCopiesSold: 840,
+            totalReceipts: 142,
+            cashTotal: 145000.00,
+            mfsTotal: 65177.43,
+            cardTotal: 15000.00
+          }
+        }
+      }
+    };
+  }
+
+  // /fair/events/:id/reports
+  const fairReportsMatch = path.match(/^\/fair\/events\/([a-f0-9-]+)\/reports$/i);
+  if (fairReportsMatch) {
+    const fairId = fairReportsMatch[1];
+    const fairs = mockDb.fair_events || [];
+    const event = fairs.find((e: any) => e.id === fairId || e.event_code === fairId) || fairs[0] || {};
+    return {
+      status: 200,
+      data: {
+        data: {
+          event,
+          financialSummary: {
+            grossSales: 250197.15,
+            totalDiscounts: 25019.72,
+            netSales: 225177.43,
+            totalMemos: 142,
+            totalCopiesSold: 840,
+            salesTarget: Number(event.sales_target || 2500000),
+            budgetAmount: Number(event.budget_amount || 650000),
+            targetAchievementPct: 9.01,
+            cogs: 112588.72,
+            grossProfit: 112588.71,
+            grossMarginPct: 50.00,
+            totalExpenses: 659700.00,
+            netProfit: -547111.29,
+            netMarginPct: -242.97,
+            roiPct: -82.93
+          },
+          salesByPaymentMethod: [
+            { paymentMethod: 'cash', memoCount: 92, totalAmount: 145000.00, sharePct: 64.39 },
+            { paymentMethod: 'bkash', memoCount: 41, totalAmount: 65177.43, sharePct: 28.95 },
+            { paymentMethod: 'card', memoCount: 9, totalAmount: 15000.00, sharePct: 6.66 }
+          ],
+          dailySalesTrend: [
+            { saleDate: '2026-02-01', memoCount: 18, netSales: 28400, discountAmount: 3150 },
+            { saleDate: '2026-02-02', memoCount: 22, netSales: 35200, discountAmount: 3900 },
+            { saleDate: '2026-02-03', memoCount: 31, netSales: 48900, discountAmount: 5400 },
+            { saleDate: '2026-02-04', memoCount: 35, netSales: 56100, discountAmount: 6200 },
+            { saleDate: '2026-02-05', memoCount: 36, netSales: 56577.43, discountAmount: 6369.72 }
+          ],
+          topSellingTitles: [
+            {
+              item_id: 'item-001',
+              item_code: 'BK-NOV-001',
+              item_name: 'Nirbashito Shonglap',
+              copies_sold: 480,
+              gross_sales: 168000,
+              net_sales: 151200,
+              cogs: 69600,
+              gross_profit: 81600
+            },
+            {
+              item_id: 'item-002',
+              item_code: 'BK-POE-002',
+              item_name: 'Dhulimukto Akash',
+              copies_sold: 360,
+              gross_sales: 82197.15,
+              net_sales: 73977.43,
+              cogs: 42988.72,
+              gross_profit: 30988.71
+            }
+          ],
+          boothPerformance: (mockDb.fair_booths || []).filter((b: any) => b.fair_id === fairId || b.event_id === fairId).map((b: any) => ({
+            booth_id: b.id,
+            booth_code: b.booth_code,
+            booth_name: b.booth_name,
+            total_memos: 142,
+            copies_sold: 840,
+            net_sales: 225177.43
+          })),
+          expenses: mockDb.fair_expenses || []
+        }
+      }
+    };
+  }
+
+  // /fair/events/:id/post-fair-stock
+  const postFairMatch = path.match(/^\/fair\/events\/([a-f0-9-]+)\/post-fair-stock$/i);
+  if (postFairMatch) {
+    const fairId = postFairMatch[1];
+    const fairs = mockDb.fair_events || [];
+    const event = fairs.find((e: any) => e.id === fairId || e.event_code === fairId) || fairs[0] || {};
+    const booths = (mockDb.fair_booths || []).filter((b: any) => b.fair_id === fairId || b.event_id === fairId);
+    return {
+      status: 200,
+      data: {
+        data: {
+          event,
+          booths,
+          centralWarehouses: [
+            { id: 'wh-central-01', code: 'WH-DAC-01', name: 'Central Dhaka Warehouse', warehouse_type: 'central' },
+            { id: 'wh-ctg-01', code: 'WH-CTG-01', name: 'Chattogram Branch Warehouse', warehouse_type: 'branch' }
+          ],
+          stockSummary: [
+            {
+              booth_id: 'booth-demo-1',
+              booth_code: 'B-01',
+              booth_name: 'Main Pavilion Counter',
+              warehouse_id: 'wh-fair-01',
+              warehouse_name: 'Ekushey Pavilion Stall Warehouse',
+              item_id: 'item-001',
+              item_code: 'BK-NOV-001',
+              item_name: 'Nirbashito Shonglap (Hardcover)',
+              edition_id: 'ed-001',
+              current_stall_qty: 350,
+              average_unit_cost: 145.00,
+              cover_price: 350.00,
+              allocated_qty: 500,
+              sold_qty: 150,
+              returned_qty: 0
+            }
+          ],
+          returnTransfers: [],
+          kpis: {
+            totalAllocatedCopies: 500,
+            totalCopiesSold: 150,
+            totalCurrentInStall: 350,
+            totalReturnedCopies: 0,
+            totalRemainingValue: 122500.00
+          }
+        }
+      }
+    };
+  }
+
+  // /fair/events/:id (Single Event Details with History)
+  const fairEventDetailMatch = path.match(/^\/fair\/events\/([a-f0-9-]+)$/i);
+  if (fairEventDetailMatch) {
+    const fairId = fairEventDetailMatch[1];
+    const fairs = mockDb.fair_events || [];
+    const found = fairs.find((e: any) => e.id === fairId || e.event_code === fairId) || fairs[0];
+    if (found) {
+      return {
+        status: 200,
+        data: {
+          data: {
+            event: found,
+            history: [
+              {
+                action: 'FAIR_CREATE',
+                from_status: null,
+                to_status: 'draft',
+                reason: 'Event initialized during 2026 annual planning',
+                occurred_at: '2026-01-10T09:00:00Z',
+                actor_name: 'Hasan Mahmud (Admin)'
+              },
+              {
+                action: 'FAIR_SUBMIT',
+                from_status: 'draft',
+                to_status: 'submitted',
+                reason: 'Budget and booth allocation ready for review',
+                occurred_at: '2026-01-15T11:30:00Z',
+                actor_name: 'Hasan Mahmud (Admin)'
+              },
+              {
+                action: 'FAIR_APPROVE',
+                from_status: 'submitted',
+                to_status: 'approved',
+                reason: 'Management approved operational plan and credit limit',
+                occurred_at: '2026-01-16T14:15:00Z',
+                actor_name: 'Managing Director'
+              }
+            ]
+          }
+        }
+      };
+    }
   }
 
   // /reports/fair-profitability

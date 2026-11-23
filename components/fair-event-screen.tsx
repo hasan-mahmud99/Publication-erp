@@ -274,7 +274,7 @@ export function FairEventScreen({ screen }: { screen: Screen }) {
 
   const canManage = me?.role === 'Owner' || Boolean(me?.permissions.includes('fair.manage'));
   const canApprove = me?.role === 'Owner' || Boolean(me?.permissions.includes('fair.approve'));
-  const selected = detail?.event.id === selectedId ? detail.event : null;
+  const selected = detail?.event?.id === selectedId ? detail.event : null;
   const formMode = screen.title === 'Create/Edit Fair';
   const boothMode = screen.title === 'Fair Setup & Booth';
   const allocationMode = screen.title === 'Fair Stock Allocation';
@@ -588,31 +588,34 @@ export function FairEventScreen({ screen }: { screen: Screen }) {
       api<{ data: Booth[] }>(`/fair/events/${id}/booths`),
       api<{ data: Staff[] }>(`/fair/events/${id}/staff`),
     ]);
-    setDetail(eventResult.data);
-    setBooths(boothResult.data);
-    setStaff(staffResult.data);
-    const row = eventResult.data.event;
-    setForm({
-      code: row.event_code,
-      name: row.name_en,
-      type: row.event_type,
-      organizerName: row.organizer_name || '',
-      description: row.description || '',
-      year: String(row.event_year),
-      venue: row.venue,
-      venueAddress: row.venue_address || '',
-      city: row.city || '',
-      timezone: row.timezone,
-      setupStartDate: fmt(row.setup_start_date) === '—' ? '' : fmt(row.setup_start_date),
-      startDate: fmt(row.start_date),
-      endDate: fmt(row.end_date),
-      dismantleDate: fmt(row.dismantle_date) === '—' ? '' : fmt(row.dismantle_date),
-      managerId: row.manager_id || '',
-      financeOwnerId: row.finance_owner_id || '',
-      warehouseCoordinatorId: row.warehouse_coordinator_id || '',
-      salesTarget: String(row.sales_target),
-      budgetAmount: String(row.budget_amount),
-    });
+    const eventData = eventResult?.data?.event ? eventResult.data : { event: eventResult?.data || null, history: [] };
+    setDetail(eventData as any);
+    setBooths(Array.isArray(boothResult?.data) ? boothResult.data : []);
+    setStaff(Array.isArray(staffResult?.data) ? staffResult.data : []);
+    const row = (eventData as any).event as Event | null;
+    if (row) {
+      setForm({
+        code: row.event_code || '',
+        name: row.name_en || '',
+        type: row.event_type || 'book_fair',
+        organizerName: row.organizer_name || '',
+        description: row.description || '',
+        year: String(row.event_year || '2026'),
+        venue: row.venue || '',
+        venueAddress: row.venue_address || '',
+        city: row.city || '',
+        timezone: row.timezone || 'Asia/Dhaka',
+        setupStartDate: fmt(row.setup_start_date) === '—' ? '' : fmt(row.setup_start_date),
+        startDate: fmt(row.start_date) === '—' ? '' : fmt(row.start_date),
+        endDate: fmt(row.end_date) === '—' ? '' : fmt(row.end_date),
+        dismantleDate: fmt(row.dismantle_date) === '—' ? '' : fmt(row.dismantle_date),
+        managerId: row.manager_id || '',
+        financeOwnerId: row.finance_owner_id || '',
+        warehouseCoordinatorId: row.warehouse_coordinator_id || '',
+        salesTarget: String(row.sales_target || 0),
+        budgetAmount: String(row.budget_amount || 0),
+      });
+    }
   }
 
   useEffect(() => {
@@ -2381,12 +2384,12 @@ export function FairEventScreen({ screen }: { screen: Screen }) {
                   {detailTab === 'history' && (
                     <div>
                       <div style={{ fontSize: 13, fontWeight: 600, color: '#334155', marginBottom: 12 }}>
-                        Event Audit &amp; State Change Log ({detail?.history.length ?? 0})
+                        Event Audit &amp; State Change Log ({(detail?.history || []).length})
                       </div>
 
                       <div style={{ display: 'grid', gap: 10 }}>
-                        {detail?.history.length ? (
-                          detail.history.map((h, idx) => (
+                        {(detail?.history || []).length ? (
+                          (detail?.history || []).map((h, idx) => (
                             <div
                               key={`${h.occurred_at}-${idx}`}
                               style={{
