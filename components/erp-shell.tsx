@@ -82,6 +82,11 @@ const iconFor = (slug: string) => {
 };
 
 export function ErpShell({ children }: { children: React.ReactNode }) {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const pathname = usePathname();
   const router = useRouter();
   const sidebarRef = useRef<HTMLElement>(null);
@@ -179,6 +184,17 @@ export function ErpShell({ children }: { children: React.ReactNode }) {
       onClick={() => { rememberSidebarScroll(true); setMobile(false); }}>
       <Icon size={15} aria-hidden="true" /><span>{screen.title}</span>
     </Link>;
+  }
+
+  if (!mounted) {
+    return (
+      <div className="shell" suppressHydrationWarning style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f8fafc' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12, color: '#64748b' }}>
+          <div style={{ width: 28, height: 28, border: '3px solid #cbd5e1', borderTopColor: '#2563eb', borderRadius: '50%', animation: 'spin 1s linear infinite' }} />
+          <span style={{ fontSize: 13, fontWeight: 500 }}>Loading workspace…</span>
+        </div>
+      </div>
+    );
   }
 
   return <div className="shell" suppressHydrationWarning>
