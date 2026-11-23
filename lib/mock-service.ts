@@ -178,6 +178,102 @@ export function handleMockRequest(rawPath: string, options: RequestInit = {}): M
     };
   }
 
+  // Dashboard endpoints
+  if (path === '/dashboard/executive') {
+    return {
+      status: 200,
+      data: {
+        data: {
+          books: 4,
+          activeBooks: 2,
+          orders: 14,
+          orderValue: 70520,
+          openPrintOrders: 2,
+          onHand: 69750,
+          reserved: 20,
+          postedJournals: 41,
+          canReadFinance: true
+        }
+      }
+    };
+  }
+
+  if (path === '/dashboard/publishing') {
+    return {
+      status: 200,
+      data: {
+        data: {
+          bookStatus: [
+            { status: 'published', total: 2 },
+            { status: 'in_production', total: 1 },
+            { status: 'draft', total: 1 }
+          ],
+          pendingIdentifiers: 0
+        }
+      }
+    };
+  }
+
+  if (path === '/dashboard/sales') {
+    return {
+      status: 200,
+      data: {
+        data: {
+          status: [
+            { status: 'draft', total: 2, order_value: 12400 },
+            { status: 'confirmed', total: 5, order_value: 45000 },
+            { status: 'dispatched', total: 4, order_value: 38500 },
+            { status: 'delivered', total: 8, order_value: 70520 }
+          ]
+        }
+      }
+    };
+  }
+
+  if (path === '/dashboard/inventory') {
+    return {
+      status: 200,
+      data: {
+        data: {
+          onHand: 69750,
+          reserved: 20,
+          available: 69730,
+          stockValue: 14850000
+        }
+      }
+    };
+  }
+
+  if (path === '/dashboard/trends') {
+    return {
+      status: 200,
+      data: {
+        data: {
+          months: [
+            { month: '2026-06', orders: 4, orderValue: 28500, titles: 2 },
+            { month: '2026-07', orders: 6, orderValue: 42000, titles: 3 },
+            { month: '2026-08', orders: 8, orderValue: 56000, titles: 4 },
+            { month: '2026-09', orders: 11, orderValue: 78000, titles: 4 },
+            { month: '2026-10', orders: 14, orderValue: 98000, titles: 5 },
+            { month: '2026-11', orders: 18, orderValue: 125000, titles: 6 }
+          ]
+        }
+      }
+    };
+  }
+
+  if (path === '/dashboard/finance') {
+    return {
+      status: 200,
+      data: {
+        data: {
+          status: [{ status: 'posted', total: 41 }],
+          postedDebits: 16448115
+        }
+      }
+    };
+  }
+
   // /sales-sources/invoices/:id
   const invMatch = path.match(/^\/sales-sources\/invoices\/([a-f0-9-]+)$/i);
   if (invMatch) {
