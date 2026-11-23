@@ -1,0 +1,2672 @@
+[
+  {
+    "id": "SCR-001",
+    "module": "Dashboard & Workspace",
+    "moduleSlug": "dashboard-workspace",
+    "title": "Executive Dashboard",
+    "slug": "executive-dashboard",
+    "path": "/dashboard-workspace/executive-dashboard",
+    "resource": "dashboard-workspace",
+    "description": "Executive Dashboard workspace for Dashboard & Workspace."
+  },
+  {
+    "id": "SCR-002",
+    "module": "Dashboard & Workspace",
+    "moduleSlug": "dashboard-workspace",
+    "title": "Publishing Pipeline Dashboard",
+    "slug": "publishing-pipeline-dashboard",
+    "path": "/dashboard-workspace/publishing-pipeline-dashboard",
+    "resource": "dashboard-workspace",
+    "description": "Publishing Pipeline Dashboard workspace for Dashboard & Workspace."
+  },
+  {
+    "id": "SCR-003",
+    "module": "Dashboard & Workspace",
+    "moduleSlug": "dashboard-workspace",
+    "title": "Sales Dashboard",
+    "slug": "sales-dashboard",
+    "path": "/dashboard-workspace/sales-dashboard",
+    "resource": "dashboard-workspace",
+    "description": "Sales Dashboard workspace for Dashboard & Workspace."
+  },
+  {
+    "id": "SCR-004",
+    "module": "Dashboard & Workspace",
+    "moduleSlug": "dashboard-workspace",
+    "title": "Inventory Dashboard",
+    "slug": "inventory-dashboard",
+    "path": "/dashboard-workspace/inventory-dashboard",
+    "resource": "dashboard-workspace",
+    "description": "Inventory Dashboard workspace for Dashboard & Workspace."
+  },
+  {
+    "id": "SCR-005",
+    "module": "Dashboard & Workspace",
+    "moduleSlug": "dashboard-workspace",
+    "title": "Production Dashboard",
+    "slug": "production-dashboard",
+    "path": "/dashboard-workspace/production-dashboard",
+    "resource": "dashboard-workspace",
+    "description": "Production Dashboard workspace for Dashboard & Workspace."
+  },
+  {
+    "id": "SCR-006",
+    "module": "Dashboard & Workspace",
+    "moduleSlug": "dashboard-workspace",
+    "title": "Finance Dashboard",
+    "slug": "finance-dashboard",
+    "path": "/dashboard-workspace/finance-dashboard",
+    "resource": "dashboard-workspace",
+    "description": "Finance Dashboard workspace for Dashboard & Workspace."
+  },
+  {
+    "id": "SCR-007",
+    "module": "Dashboard & Workspace",
+    "moduleSlug": "dashboard-workspace",
+    "title": "My Tasks",
+    "slug": "my-tasks",
+    "path": "/dashboard-workspace/my-tasks",
+    "resource": "dashboard-workspace",
+    "description": "My Tasks workspace for Dashboard & Workspace."
+  },
+  {
+    "id": "SCR-008",
+    "module": "Dashboard & Workspace",
+    "moduleSlug": "dashboard-workspace",
+    "title": "Global Search",
+    "slug": "global-search",
+    "path": "/dashboard-workspace/global-search",
+    "resource": "dashboard-workspace",
+    "description": "Global Search workspace for Dashboard & Workspace."
+  },
+  {
+    "id": "SCR-009",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Book Catalog List",
+    "slug": "book-catalog-list",
+    "path": "/publishing-catalog/book-catalog-list",
+    "resource": "publishing-catalog",
+    "description": "Book Catalog List workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-010",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Create Book",
+    "slug": "create-book",
+    "path": "/publishing-catalog/create-book",
+    "resource": "publishing-catalog",
+    "description": "Create Book workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-011",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Edit Book",
+    "slug": "edit-book",
+    "path": "/publishing-catalog/edit-book",
+    "resource": "publishing-catalog",
+    "description": "Edit Book workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-012",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Book Detail & Timeline",
+    "slug": "book-detail-and-timeline",
+    "path": "/publishing-catalog/book-detail-and-timeline",
+    "resource": "publishing-catalog",
+    "description": "Book Detail & Timeline workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-013",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Edition List",
+    "slug": "edition-list",
+    "path": "/publishing-catalog/edition-list",
+    "resource": "publishing-catalog",
+    "description": "Edition List workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-014",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Create/Edit Edition",
+    "slug": "create-edit-edition",
+    "path": "/publishing-catalog/create-edit-edition",
+    "resource": "publishing-catalog",
+    "description": "Create/Edit Edition workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-015",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Edition Detail",
+    "slug": "edition-detail",
+    "path": "/publishing-catalog/edition-detail",
+    "resource": "publishing-catalog",
+    "description": "Edition Detail workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-016",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "ISBN & Identifier Register",
+    "slug": "isbn-and-identifier-register",
+    "path": "/publishing-catalog/isbn-and-identifier-register",
+    "resource": "publishing-catalog",
+    "description": "ISBN & Identifier Register workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-017",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Identifier Validation Queue",
+    "slug": "identifier-validation-queue",
+    "path": "/publishing-catalog/identifier-validation-queue",
+    "resource": "publishing-catalog",
+    "description": "Identifier Validation Queue workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-018",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Category & Subject Management",
+    "slug": "category-and-subject-management",
+    "path": "/publishing-catalog/category-and-subject-management",
+    "resource": "publishing-catalog",
+    "description": "Category & Subject Management workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-019",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Author/Contributor Assignment",
+    "slug": "author-contributor-assignment",
+    "path": "/publishing-catalog/author-contributor-assignment",
+    "resource": "publishing-catalog",
+    "description": "Author/Contributor Assignment workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-020",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Publisher & Imprint Management",
+    "slug": "publisher-and-imprint-management",
+    "path": "/publishing-catalog/publisher-and-imprint-management",
+    "resource": "publishing-catalog",
+    "description": "Publisher & Imprint Management workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-021",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Price List Management",
+    "slug": "price-list-management",
+    "path": "/publishing-catalog/price-list-management",
+    "resource": "publishing-catalog",
+    "description": "Price List Management workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-022",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Bulk Import Preview",
+    "slug": "bulk-import-preview",
+    "path": "/publishing-catalog/bulk-import-preview",
+    "resource": "publishing-catalog",
+    "description": "Bulk Import Preview workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-023",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Import Job History",
+    "slug": "import-job-history",
+    "path": "/publishing-catalog/import-job-history",
+    "resource": "publishing-catalog",
+    "description": "Import Job History workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-024",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Publication Calendar",
+    "slug": "publication-calendar",
+    "path": "/publishing-catalog/publication-calendar",
+    "resource": "publishing-catalog",
+    "description": "Publication Calendar workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-025",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Discontinued Titles",
+    "slug": "discontinued-titles",
+    "path": "/publishing-catalog/discontinued-titles",
+    "resource": "publishing-catalog",
+    "description": "Discontinued Titles workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-026",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Digital Format Register",
+    "slug": "digital-format-register",
+    "path": "/publishing-catalog/digital-format-register",
+    "resource": "publishing-catalog",
+    "description": "Digital Format Register workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-027",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Catalog Duplicate Review",
+    "slug": "catalog-duplicate-review",
+    "path": "/publishing-catalog/catalog-duplicate-review",
+    "resource": "publishing-catalog",
+    "description": "Catalog Duplicate Review workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-028",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Catalog Change History",
+    "slug": "catalog-change-history",
+    "path": "/publishing-catalog/catalog-change-history",
+    "resource": "publishing-catalog",
+    "description": "Catalog Change History workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-029",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Book Metadata Completeness",
+    "slug": "book-metadata-completeness",
+    "path": "/publishing-catalog/book-metadata-completeness",
+    "resource": "publishing-catalog",
+    "description": "Book Metadata Completeness workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-030",
+    "module": "Publishing & Book Catalog",
+    "moduleSlug": "publishing-catalog",
+    "title": "Catalog Export",
+    "slug": "catalog-export",
+    "path": "/publishing-catalog/catalog-export",
+    "resource": "publishing-catalog",
+    "description": "Catalog Export workspace for Publishing & Book Catalog."
+  },
+  {
+    "id": "SCR-031",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Submission Inbox",
+    "slug": "submission-inbox",
+    "path": "/manuscript-editorial/submission-inbox",
+    "resource": "manuscript-editorial",
+    "description": "Submission Inbox workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-032",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Submit Manuscript",
+    "slug": "submit-manuscript",
+    "path": "/manuscript-editorial/submit-manuscript",
+    "resource": "manuscript-editorial",
+    "description": "Submit Manuscript workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-033",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Manuscript Detail",
+    "slug": "manuscript-detail",
+    "path": "/manuscript-editorial/manuscript-detail",
+    "resource": "manuscript-editorial",
+    "description": "Manuscript Detail workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-034",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Screening Queue",
+    "slug": "screening-queue",
+    "path": "/manuscript-editorial/screening-queue",
+    "resource": "manuscript-editorial",
+    "description": "Screening Queue workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-035",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Editorial Review",
+    "slug": "editorial-review",
+    "path": "/manuscript-editorial/editorial-review",
+    "resource": "manuscript-editorial",
+    "description": "Editorial Review workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-036",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Reviewer Assignment",
+    "slug": "reviewer-assignment",
+    "path": "/manuscript-editorial/reviewer-assignment",
+    "resource": "manuscript-editorial",
+    "description": "Reviewer Assignment workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-037",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Editorial Task Board",
+    "slug": "editorial-task-board",
+    "path": "/manuscript-editorial/editorial-task-board",
+    "resource": "manuscript-editorial",
+    "description": "Editorial Task Board workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-038",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Editing & Proofreading Tracker",
+    "slug": "editing-and-proofreading-tracker",
+    "path": "/manuscript-editorial/editing-and-proofreading-tracker",
+    "resource": "manuscript-editorial",
+    "description": "Editing & Proofreading Tracker workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-039",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Version Comparison",
+    "slug": "version-comparison",
+    "path": "/manuscript-editorial/version-comparison",
+    "resource": "manuscript-editorial",
+    "description": "Version Comparison workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-040",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Proof Approval",
+    "slug": "proof-approval",
+    "path": "/manuscript-editorial/proof-approval",
+    "resource": "manuscript-editorial",
+    "description": "Proof Approval workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-041",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Editorial Calendar",
+    "slug": "editorial-calendar",
+    "path": "/manuscript-editorial/editorial-calendar",
+    "resource": "manuscript-editorial",
+    "description": "Editorial Calendar workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-042",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Rejection & Resubmission Register",
+    "slug": "rejection-and-resubmission-register",
+    "path": "/manuscript-editorial/rejection-and-resubmission-register",
+    "resource": "manuscript-editorial",
+    "description": "Rejection & Resubmission Register workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-043",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Manuscript File Repository",
+    "slug": "manuscript-file-repository",
+    "path": "/manuscript-editorial/manuscript-file-repository",
+    "resource": "manuscript-editorial",
+    "description": "Manuscript File Repository workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-044",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Editorial SLA Report",
+    "slug": "editorial-sla-report",
+    "path": "/manuscript-editorial/editorial-sla-report",
+    "resource": "manuscript-editorial",
+    "description": "Editorial SLA Report workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-045",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Review Conflict Check",
+    "slug": "review-conflict-check",
+    "path": "/manuscript-editorial/review-conflict-check",
+    "resource": "manuscript-editorial",
+    "description": "Review Conflict Check workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-046",
+    "module": "Manuscript & Editorial",
+    "moduleSlug": "manuscript-editorial",
+    "title": "Publication Readiness Checklist",
+    "slug": "publication-readiness-checklist",
+    "path": "/manuscript-editorial/publication-readiness-checklist",
+    "resource": "manuscript-editorial",
+    "description": "Publication Readiness Checklist workspace for Manuscript & Editorial."
+  },
+  {
+    "id": "SCR-047",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Author Directory",
+    "slug": "author-directory",
+    "path": "/authors-contracts-rights/author-directory",
+    "resource": "authors-contracts-rights",
+    "description": "Author Directory workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-048",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Author Profile",
+    "slug": "author-profile",
+    "path": "/authors-contracts-rights/author-profile",
+    "resource": "authors-contracts-rights",
+    "description": "Author Profile workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-049",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Contract List",
+    "slug": "contract-list",
+    "path": "/authors-contracts-rights/contract-list",
+    "resource": "authors-contracts-rights",
+    "description": "Contract List workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-050",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Create/Edit Contract",
+    "slug": "create-edit-contract",
+    "path": "/authors-contracts-rights/create-edit-contract",
+    "resource": "authors-contracts-rights",
+    "description": "Create/Edit Contract workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-051",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Contract Detail & Amendments",
+    "slug": "contract-detail-and-amendments",
+    "path": "/authors-contracts-rights/contract-detail-and-amendments",
+    "resource": "authors-contracts-rights",
+    "description": "Contract Detail & Amendments workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-052",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Rights & Territory Register",
+    "slug": "rights-and-territory-register",
+    "path": "/authors-contracts-rights/rights-and-territory-register",
+    "resource": "authors-contracts-rights",
+    "description": "Rights & Territory Register workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-053",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Advance Payment Register",
+    "slug": "advance-payment-register",
+    "path": "/authors-contracts-rights/advance-payment-register",
+    "resource": "authors-contracts-rights",
+    "description": "Advance Payment Register workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-054",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Royalty Rules Setup",
+    "slug": "royalty-rules-setup",
+    "path": "/authors-contracts-rights/royalty-rules-setup",
+    "resource": "authors-contracts-rights",
+    "description": "Royalty Rules Setup workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-055",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Royalty Calculation Preview",
+    "slug": "royalty-calculation-preview",
+    "path": "/authors-contracts-rights/royalty-calculation-preview",
+    "resource": "authors-contracts-rights",
+    "description": "Royalty Calculation Preview workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-056",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Royalty Statement & Payment History",
+    "slug": "royalty-statement-and-payment-history",
+    "path": "/authors-contracts-rights/royalty-statement-and-payment-history",
+    "resource": "authors-contracts-rights",
+    "description": "Royalty Statement & Payment History workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-057",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Contributor Split Setup",
+    "slug": "contributor-split-setup",
+    "path": "/authors-contracts-rights/contributor-split-setup",
+    "resource": "authors-contracts-rights",
+    "description": "Contributor Split Setup workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-058",
+    "module": "Authors, Contracts & Rights",
+    "moduleSlug": "authors-contracts-rights",
+    "title": "Rights Expiry Calendar",
+    "slug": "rights-expiry-calendar",
+    "path": "/authors-contracts-rights/rights-expiry-calendar",
+    "resource": "authors-contracts-rights",
+    "description": "Rights Expiry Calendar workspace for Authors, Contracts & Rights."
+  },
+  {
+    "id": "SCR-059",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Production Planning Board",
+    "slug": "production-planning-board",
+    "path": "/printing-production/production-planning-board",
+    "resource": "printing-production",
+    "description": "Production Planning Board workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-060",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Print Order List",
+    "slug": "print-order-list",
+    "path": "/printing-production/print-order-list",
+    "resource": "printing-production",
+    "description": "Print Order List workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-061",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Create Print Order",
+    "slug": "create-print-order",
+    "path": "/printing-production/create-print-order",
+    "resource": "printing-production",
+    "description": "Create Print Order workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-062",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Print Order Detail",
+    "slug": "print-order-detail",
+    "path": "/printing-production/print-order-detail",
+    "resource": "printing-production",
+    "description": "Print Order Detail workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-063",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Print Specification Sheet",
+    "slug": "print-specification-sheet",
+    "path": "/printing-production/print-specification-sheet",
+    "resource": "printing-production",
+    "description": "Print Specification Sheet workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-064",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "BOM & Material Requirement",
+    "slug": "bom-and-material-requirement",
+    "path": "/printing-production/bom-and-material-requirement",
+    "resource": "printing-production",
+    "description": "BOM & Material Requirement workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-065",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Material Issue",
+    "slug": "material-issue",
+    "path": "/printing-production/material-issue",
+    "resource": "printing-production",
+    "description": "Material Issue workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-066",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "WIP Tracking",
+    "slug": "wip-tracking",
+    "path": "/printing-production/wip-tracking",
+    "resource": "printing-production",
+    "description": "WIP Tracking workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-067",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Production Operations",
+    "slug": "production-operations",
+    "path": "/printing-production/production-operations",
+    "resource": "printing-production",
+    "description": "Production Operations workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-068",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Quality Inspection",
+    "slug": "quality-inspection",
+    "path": "/printing-production/quality-inspection",
+    "resource": "printing-production",
+    "description": "Quality Inspection workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-069",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Production Receipt",
+    "slug": "production-receipt",
+    "path": "/printing-production/production-receipt",
+    "resource": "printing-production",
+    "description": "Production Receipt workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-070",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Wastage & Rejection Register",
+    "slug": "wastage-and-rejection-register",
+    "path": "/printing-production/wastage-and-rejection-register",
+    "resource": "printing-production",
+    "description": "Wastage & Rejection Register workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-071",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Reprint Planning",
+    "slug": "reprint-planning",
+    "path": "/printing-production/reprint-planning",
+    "resource": "printing-production",
+    "description": "Reprint Planning workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-072",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Planned vs Actual Cost",
+    "slug": "planned-vs-actual-cost",
+    "path": "/printing-production/planned-vs-actual-cost",
+    "resource": "printing-production",
+    "description": "Planned vs Actual Cost workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-073",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Printer Quotation Comparison",
+    "slug": "printer-quotation-comparison",
+    "path": "/printing-production/printer-quotation-comparison",
+    "resource": "printing-production",
+    "description": "Printer Quotation Comparison workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-074",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Print Schedule Calendar",
+    "slug": "print-schedule-calendar",
+    "path": "/printing-production/print-schedule-calendar",
+    "resource": "printing-production",
+    "description": "Print Schedule Calendar workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-075",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Paper Consumption Analysis",
+    "slug": "paper-consumption-analysis",
+    "path": "/printing-production/paper-consumption-analysis",
+    "resource": "printing-production",
+    "description": "Paper Consumption Analysis workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-076",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Production Variance Review",
+    "slug": "production-variance-review",
+    "path": "/printing-production/production-variance-review",
+    "resource": "printing-production",
+    "description": "Production Variance Review workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-077",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Finished Goods Acceptance",
+    "slug": "finished-goods-acceptance",
+    "path": "/printing-production/finished-goods-acceptance",
+    "resource": "printing-production",
+    "description": "Finished Goods Acceptance workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-078",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Production Batch History",
+    "slug": "production-batch-history",
+    "path": "/printing-production/production-batch-history",
+    "resource": "printing-production",
+    "description": "Production Batch History workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-079",
+    "module": "Printing & Production",
+    "moduleSlug": "printing-production",
+    "title": "Print Order Closeout",
+    "slug": "print-order-closeout",
+    "path": "/printing-production/print-order-closeout",
+    "resource": "printing-production",
+    "description": "Print Order Closeout workspace for Printing & Production."
+  },
+  {
+    "id": "SCR-080",
+    "module": "Suppliers",
+    "moduleSlug": "suppliers",
+    "title": "Supplier Directory",
+    "slug": "supplier-directory",
+    "path": "/suppliers/supplier-directory",
+    "resource": "suppliers",
+    "description": "Supplier Directory workspace for Suppliers."
+  },
+  {
+    "id": "SCR-081",
+    "module": "Suppliers",
+    "moduleSlug": "suppliers",
+    "title": "Supplier Profile & Ledger",
+    "slug": "supplier-profile-and-ledger",
+    "path": "/suppliers/supplier-profile-and-ledger",
+    "resource": "suppliers",
+    "description": "Supplier Profile & Ledger workspace for Suppliers."
+  },
+  {
+    "id": "SCR-088",
+    "module": "Suppliers",
+    "moduleSlug": "suppliers",
+    "title": "Supplier Material Orders",
+    "slug": "supplier-orders",
+    "path": "/suppliers/supplier-orders",
+    "resource": "purchase-orders",
+    "description": "Place raw material purchase orders to paper mills and suppliers with live calculation and delivery receipt."
+  },
+  {
+    "id": "SCR-090",
+    "module": "Suppliers",
+    "moduleSlug": "suppliers",
+    "title": "Supplier Bill Register",
+    "slug": "supplier-bill-register",
+    "path": "/suppliers/supplier-bill-register",
+    "resource": "suppliers",
+    "description": "Supplier Bill Register workspace for Suppliers."
+  },
+  {
+    "id": "SCR-092",
+    "module": "Suppliers",
+    "moduleSlug": "suppliers",
+    "title": "Supplier Advance Register",
+    "slug": "supplier-advance-register",
+    "path": "/suppliers/supplier-advance-register",
+    "resource": "suppliers",
+    "description": "Supplier Advance Register workspace for Suppliers."
+  },
+  {
+    "id": "SCR-093",
+    "module": "Suppliers",
+    "moduleSlug": "suppliers",
+    "title": "Supplier Payment Allocation",
+    "slug": "supplier-payment-allocation",
+    "path": "/suppliers/supplier-payment-allocation",
+    "resource": "suppliers",
+    "description": "Supplier Payment Allocation workspace for Suppliers."
+  },
+  {
+    "id": "SCR-094",
+    "module": "Suppliers",
+    "moduleSlug": "suppliers",
+    "title": "Supplier Performance",
+    "slug": "supplier-performance",
+    "path": "/suppliers/supplier-performance",
+    "resource": "suppliers",
+    "description": "Supplier Performance workspace for Suppliers."
+  },
+  {
+    "id": "SCR-096",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Inventory Overview",
+    "slug": "inventory-overview",
+    "path": "/inventory-warehouse/inventory-overview",
+    "resource": "inventory-warehouse",
+    "description": "Inventory Overview workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-097",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Stock by Book/Edition",
+    "slug": "stock-by-book-edition",
+    "path": "/inventory-warehouse/stock-by-book-edition",
+    "resource": "inventory-warehouse",
+    "description": "Stock by Book/Edition workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-098",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Stock by Warehouse/Bin",
+    "slug": "stock-by-warehouse-bin",
+    "path": "/inventory-warehouse/stock-by-warehouse-bin",
+    "resource": "inventory-warehouse",
+    "description": "Stock by Warehouse/Bin workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-099",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Inventory Transaction Ledger",
+    "slug": "inventory-transaction-ledger",
+    "path": "/inventory-warehouse/inventory-transaction-ledger",
+    "resource": "inventory-warehouse",
+    "description": "Inventory Transaction Ledger workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-100",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Goods Receipt",
+    "slug": "goods-receipt",
+    "path": "/inventory-warehouse/goods-receipt",
+    "resource": "inventory-warehouse",
+    "description": "Goods Receipt workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-101",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Stock Issue",
+    "slug": "stock-issue",
+    "path": "/inventory-warehouse/stock-issue",
+    "resource": "inventory-warehouse",
+    "description": "Stock Issue workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-102",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Stock Transfer",
+    "slug": "stock-transfer",
+    "path": "/inventory-warehouse/stock-transfer",
+    "resource": "inventory-warehouse",
+    "description": "Stock Transfer workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-103",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Transfer Approval & Receipt",
+    "slug": "transfer-approval-and-receipt",
+    "path": "/inventory-warehouse/transfer-approval-and-receipt",
+    "resource": "inventory-warehouse",
+    "description": "Transfer Approval & Receipt workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-104",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Stock Adjustment",
+    "slug": "stock-adjustment",
+    "path": "/inventory-warehouse/stock-adjustment",
+    "resource": "inventory-warehouse",
+    "description": "Stock Adjustment workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-105",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Physical Stock Count",
+    "slug": "physical-stock-count",
+    "path": "/inventory-warehouse/physical-stock-count",
+    "resource": "inventory-warehouse",
+    "description": "Physical Stock Count workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-106",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Stock Reconciliation",
+    "slug": "stock-reconciliation",
+    "path": "/inventory-warehouse/stock-reconciliation",
+    "resource": "inventory-warehouse",
+    "description": "Stock Reconciliation workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-107",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Reorder Planning",
+    "slug": "reorder-planning",
+    "path": "/inventory-warehouse/reorder-planning",
+    "resource": "inventory-warehouse",
+    "description": "Reorder Planning workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-108",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Stock Ageing",
+    "slug": "stock-ageing",
+    "path": "/inventory-warehouse/stock-ageing",
+    "resource": "inventory-warehouse",
+    "description": "Stock Ageing workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-109",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Slow-Moving Stock",
+    "slug": "slow-moving-stock",
+    "path": "/inventory-warehouse/slow-moving-stock",
+    "resource": "inventory-warehouse",
+    "description": "Slow-Moving Stock workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-110",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Inventory Valuation",
+    "slug": "inventory-valuation",
+    "path": "/inventory-warehouse/inventory-valuation",
+    "resource": "inventory-warehouse",
+    "description": "Inventory Valuation workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-111",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Reserved & Available Stock",
+    "slug": "reserved-and-available-stock",
+    "path": "/inventory-warehouse/reserved-and-available-stock",
+    "resource": "inventory-warehouse",
+    "description": "Reserved & Available Stock workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-112",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "In-Transit Stock",
+    "slug": "in-transit-stock",
+    "path": "/inventory-warehouse/in-transit-stock",
+    "resource": "inventory-warehouse",
+    "description": "In-Transit Stock workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-113",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Quarantine & Damaged Stock",
+    "slug": "quarantine-and-damaged-stock",
+    "path": "/inventory-warehouse/quarantine-and-damaged-stock",
+    "resource": "inventory-warehouse",
+    "description": "Quarantine & Damaged Stock workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-114",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Batch/Lot Register",
+    "slug": "batch-lot-register",
+    "path": "/inventory-warehouse/batch-lot-register",
+    "resource": "inventory-warehouse",
+    "description": "Batch/Lot Register workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-115",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Inventory Movement Analysis",
+    "slug": "inventory-movement-analysis",
+    "path": "/inventory-warehouse/inventory-movement-analysis",
+    "resource": "inventory-warehouse",
+    "description": "Inventory Movement Analysis workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-116",
+    "module": "Inventory & Warehouse",
+    "moduleSlug": "inventory-warehouse",
+    "title": "Stock Count Variance Approval",
+    "slug": "stock-count-variance-approval",
+    "path": "/inventory-warehouse/stock-count-variance-approval",
+    "resource": "inventory-warehouse",
+    "description": "Stock Count Variance Approval workspace for Inventory & Warehouse."
+  },
+  {
+    "id": "SCR-117",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Customer/Distributor Directory",
+    "slug": "customer-distributor-directory",
+    "path": "/sales-distribution/customer-distributor-directory",
+    "resource": "sales-distribution",
+    "description": "Customer/Distributor Directory workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-118",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Sales Quotation List",
+    "slug": "sales-quotation-list",
+    "path": "/sales-distribution/sales-quotation-list",
+    "resource": "sales-distribution",
+    "description": "Sales Quotation List workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-119",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Create Quotation",
+    "slug": "create-quotation",
+    "path": "/sales-distribution/create-quotation",
+    "resource": "sales-distribution",
+    "description": "Create Quotation workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-120",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Sales Order List",
+    "slug": "sales-order-list",
+    "path": "/sales-distribution/sales-order-list",
+    "resource": "sales-distribution",
+    "description": "Sales Order List workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-121",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Create Sales Order",
+    "slug": "create-sales-order",
+    "path": "/sales-distribution/create-sales-order",
+    "resource": "sales-distribution",
+    "description": "Create Sales Order workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-122",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Sales Order Detail",
+    "slug": "sales-order-detail",
+    "path": "/sales-distribution/sales-order-detail",
+    "resource": "sales-distribution",
+    "description": "Sales Order Detail workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-123",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Credit Approval Queue",
+    "slug": "credit-approval-queue",
+    "path": "/sales-distribution/credit-approval-queue",
+    "resource": "sales-distribution",
+    "description": "Credit Approval Queue workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-124",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Pick & Pack",
+    "slug": "pick-and-pack",
+    "path": "/sales-distribution/pick-and-pack",
+    "resource": "sales-distribution",
+    "description": "Pick & Pack workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-125",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Delivery/Dispatch Register",
+    "slug": "delivery-dispatch-register",
+    "path": "/sales-distribution/delivery-dispatch-register",
+    "resource": "sales-distribution",
+    "description": "Delivery/Dispatch Register workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-126",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Sales Invoice List",
+    "slug": "sales-invoice-list",
+    "path": "/sales-distribution/sales-invoice-list",
+    "resource": "sales-distribution",
+    "description": "Sales Invoice List workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-127",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Create/Review Invoice",
+    "slug": "create-review-invoice",
+    "path": "/sales-distribution/create-review-invoice",
+    "resource": "sales-distribution",
+    "description": "Create/Review Invoice workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-128",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Receipt & Collection Allocation",
+    "slug": "receipt-and-collection-allocation",
+    "path": "/sales-distribution/receipt-and-collection-allocation",
+    "resource": "sales-distribution",
+    "description": "Receipt & Collection Allocation workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-129",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Distributor Commission Settlement",
+    "slug": "distributor-commission-settlement",
+    "path": "/sales-distribution/distributor-commission-settlement",
+    "resource": "sales-distribution",
+    "description": "Distributor Commission Settlement workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-130",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Consignment Dispatch & Settlement",
+    "slug": "consignment-dispatch-and-settlement",
+    "path": "/sales-distribution/consignment-dispatch-and-settlement",
+    "resource": "sales-distribution",
+    "description": "Consignment Dispatch & Settlement workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-131",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Salesperson Performance",
+    "slug": "salesperson-performance",
+    "path": "/sales-distribution/salesperson-performance",
+    "resource": "sales-distribution",
+    "description": "Salesperson Performance workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-132",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Price & Discount Override Approval",
+    "slug": "price-and-discount-override-approval",
+    "path": "/sales-distribution/price-and-discount-override-approval",
+    "resource": "sales-distribution",
+    "description": "Price & Discount Override Approval workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-133",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Backorder Management",
+    "slug": "backorder-management",
+    "path": "/sales-distribution/backorder-management",
+    "resource": "sales-distribution",
+    "description": "Backorder Management workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-134",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Customer Order History",
+    "slug": "customer-order-history",
+    "path": "/sales-distribution/customer-order-history",
+    "resource": "sales-distribution",
+    "description": "Customer Order History workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-135",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Credit Limit Review",
+    "slug": "credit-limit-review",
+    "path": "/sales-distribution/credit-limit-review",
+    "resource": "sales-distribution",
+    "description": "Credit Limit Review workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-136",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Delivery Tracking",
+    "slug": "delivery-tracking",
+    "path": "/sales-distribution/delivery-tracking",
+    "resource": "sales-distribution",
+    "description": "Delivery Tracking workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-137",
+    "module": "Sales & Distribution",
+    "moduleSlug": "sales-distribution",
+    "title": "Sales Return Eligibility Preview",
+    "slug": "sales-return-eligibility-preview",
+    "path": "/sales-distribution/sales-return-eligibility-preview",
+    "resource": "sales-distribution",
+    "description": "Sales Return Eligibility Preview workspace for Sales & Distribution."
+  },
+  {
+    "id": "SCR-138",
+    "module": "Returns & Claims",
+    "moduleSlug": "returns-claims",
+    "title": "Return Request List",
+    "slug": "return-request-list",
+    "path": "/returns-claims/return-request-list",
+    "resource": "returns-claims",
+    "description": "Return Request List workspace for Returns & Claims."
+  },
+  {
+    "id": "SCR-139",
+    "module": "Returns & Claims",
+    "moduleSlug": "returns-claims",
+    "title": "Create Return Request",
+    "slug": "create-return-request",
+    "path": "/returns-claims/create-return-request",
+    "resource": "returns-claims",
+    "description": "Create Return Request workspace for Returns & Claims."
+  },
+  {
+    "id": "SCR-140",
+    "module": "Returns & Claims",
+    "moduleSlug": "returns-claims",
+    "title": "Return Inspection",
+    "slug": "return-inspection",
+    "path": "/returns-claims/return-inspection",
+    "resource": "returns-claims",
+    "description": "Return Inspection workspace for Returns & Claims."
+  },
+  {
+    "id": "SCR-141",
+    "module": "Returns & Claims",
+    "moduleSlug": "returns-claims",
+    "title": "Return Disposition",
+    "slug": "return-disposition",
+    "path": "/returns-claims/return-disposition",
+    "resource": "returns-claims",
+    "description": "Return Disposition workspace for Returns & Claims."
+  },
+  {
+    "id": "SCR-142",
+    "module": "Returns & Claims",
+    "moduleSlug": "returns-claims",
+    "title": "Sales Credit Note",
+    "slug": "sales-credit-note",
+    "path": "/returns-claims/sales-credit-note",
+    "resource": "returns-claims",
+    "description": "Sales Credit Note workspace for Returns & Claims."
+  },
+  {
+    "id": "SCR-143",
+    "module": "Returns & Claims",
+    "moduleSlug": "returns-claims",
+    "title": "Refund & Replacement Register",
+    "slug": "refund-and-replacement-register",
+    "path": "/returns-claims/refund-and-replacement-register",
+    "resource": "returns-claims",
+    "description": "Refund & Replacement Register workspace for Returns & Claims."
+  },
+  {
+    "id": "SCR-144",
+    "module": "Returns & Claims",
+    "moduleSlug": "returns-claims",
+    "title": "Supplier/Printer Claim Register",
+    "slug": "supplier-printer-claim-register",
+    "path": "/returns-claims/supplier-printer-claim-register",
+    "resource": "returns-claims",
+    "description": "Supplier/Printer Claim Register workspace for Returns & Claims."
+  },
+  {
+    "id": "SCR-145",
+    "module": "Returns & Claims",
+    "moduleSlug": "returns-claims",
+    "title": "Return Analytics",
+    "slug": "return-analytics",
+    "path": "/returns-claims/return-analytics",
+    "resource": "returns-claims",
+    "description": "Return Analytics workspace for Returns & Claims."
+  },
+  {
+    "id": "SCR-146",
+    "module": "Returns & Claims",
+    "moduleSlug": "returns-claims",
+    "title": "Return Approval Queue",
+    "slug": "return-approval-queue",
+    "path": "/returns-claims/return-approval-queue",
+    "resource": "returns-claims",
+    "description": "Return Approval Queue workspace for Returns & Claims."
+  },
+  {
+    "id": "SCR-148",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Finance Dashboard",
+    "slug": "finance-dashboard",
+    "path": "/finance-accounting/finance-dashboard",
+    "resource": "finance-accounting",
+    "description": "Finance Dashboard workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-149",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Chart of Accounts",
+    "slug": "chart-of-accounts",
+    "path": "/finance-accounting/chart-of-accounts",
+    "resource": "finance-accounting",
+    "description": "Chart of Accounts workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-150",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Journal Voucher List",
+    "slug": "journal-voucher-list",
+    "path": "/finance-accounting/journal-voucher-list",
+    "resource": "finance-accounting",
+    "description": "Journal Voucher List workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-151",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Create Journal Voucher",
+    "slug": "create-journal-voucher",
+    "path": "/finance-accounting/create-journal-voucher",
+    "resource": "finance-accounting",
+    "description": "Create Journal Voucher workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-152",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Journal Entry Detail",
+    "slug": "journal-entry-detail",
+    "path": "/finance-accounting/journal-entry-detail",
+    "resource": "finance-accounting",
+    "description": "Journal Entry Detail workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-153",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "General Ledger",
+    "slug": "general-ledger",
+    "path": "/finance-accounting/general-ledger",
+    "resource": "finance-accounting",
+    "description": "General Ledger workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-154",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Trial Balance",
+    "slug": "trial-balance",
+    "path": "/finance-accounting/trial-balance",
+    "resource": "finance-accounting",
+    "description": "Trial Balance workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-155",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Accounts Receivable",
+    "slug": "accounts-receivable",
+    "path": "/finance-accounting/accounts-receivable",
+    "resource": "finance-accounting",
+    "description": "Accounts Receivable workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-156",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Customer Ageing",
+    "slug": "customer-ageing",
+    "path": "/finance-accounting/customer-ageing",
+    "resource": "finance-accounting",
+    "description": "Customer Ageing workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-157",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Accounts Payable",
+    "slug": "accounts-payable",
+    "path": "/finance-accounting/accounts-payable",
+    "resource": "finance-accounting",
+    "description": "Accounts Payable workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-158",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Supplier Ageing",
+    "slug": "supplier-ageing",
+    "path": "/finance-accounting/supplier-ageing",
+    "resource": "finance-accounting",
+    "description": "Supplier Ageing workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-159",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Cash & Bank Accounts",
+    "slug": "cash-and-bank-accounts",
+    "path": "/finance-accounting/cash-and-bank-accounts",
+    "resource": "finance-accounting",
+    "description": "Cash & Bank Accounts workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-160",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Payment Voucher",
+    "slug": "payment-voucher",
+    "path": "/finance-accounting/payment-voucher",
+    "resource": "finance-accounting",
+    "description": "Payment Voucher workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-161",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Receipt Voucher",
+    "slug": "receipt-voucher",
+    "path": "/finance-accounting/receipt-voucher",
+    "resource": "finance-accounting",
+    "description": "Receipt Voucher workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-162",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Bank Reconciliation",
+    "slug": "bank-reconciliation",
+    "path": "/finance-accounting/bank-reconciliation",
+    "resource": "finance-accounting",
+    "description": "Bank Reconciliation workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-163",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Expense Register",
+    "slug": "expense-register",
+    "path": "/finance-accounting/expense-register",
+    "resource": "finance-accounting",
+    "description": "Expense Register workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-164",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Fixed Assets",
+    "slug": "fixed-assets",
+    "path": "/finance-accounting/fixed-assets",
+    "resource": "finance-accounting",
+    "description": "Fixed Assets workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-165",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Profit & Loss / Balance Sheet / Cash Flow",
+    "slug": "profit-and-loss-balance-sheet-cash-flow",
+    "path": "/finance-accounting/profit-and-loss-balance-sheet-cash-flow",
+    "resource": "finance-accounting",
+    "description": "Profit & Loss / Balance Sheet / Cash Flow workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-166",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Cost Centre Setup",
+    "slug": "cost-centre-setup",
+    "path": "/finance-accounting/cost-centre-setup",
+    "resource": "finance-accounting",
+    "description": "Cost Centre Setup workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-167",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Fiscal Period Close",
+    "slug": "fiscal-period-close",
+    "path": "/finance-accounting/fiscal-period-close",
+    "resource": "finance-accounting",
+    "description": "Fiscal Period Close workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-168",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Period Reopen Approval",
+    "slug": "period-reopen-approval",
+    "path": "/finance-accounting/period-reopen-approval",
+    "resource": "finance-accounting",
+    "description": "Period Reopen Approval workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-169",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Journal Reversal Register",
+    "slug": "journal-reversal-register",
+    "path": "/finance-accounting/journal-reversal-register",
+    "resource": "finance-accounting",
+    "description": "Journal Reversal Register workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-170",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Unapplied Receipts & Payments",
+    "slug": "unapplied-receipts-and-payments",
+    "path": "/finance-accounting/unapplied-receipts-and-payments",
+    "resource": "finance-accounting",
+    "description": "Unapplied Receipts & Payments workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-171",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Budget vs Actual",
+    "slug": "budget-vs-actual",
+    "path": "/finance-accounting/budget-vs-actual",
+    "resource": "finance-accounting",
+    "description": "Budget vs Actual workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-172",
+    "module": "Finance & Accounting",
+    "moduleSlug": "finance-accounting",
+    "title": "Financial Audit Trail",
+    "slug": "financial-audit-trail",
+    "path": "/finance-accounting/financial-audit-trail",
+    "resource": "finance-accounting",
+    "description": "Financial Audit Trail workspace for Finance & Accounting."
+  },
+  {
+    "id": "SCR-173",
+    "module": "VAT & Tax Records",
+    "moduleSlug": "vat-tax",
+    "title": "Tax Configuration",
+    "slug": "tax-configuration",
+    "path": "/vat-tax/tax-configuration",
+    "resource": "vat-tax",
+    "description": "Tax Configuration workspace for VAT & Tax Records."
+  },
+  {
+    "id": "SCR-174",
+    "module": "VAT & Tax Records",
+    "moduleSlug": "vat-tax",
+    "title": "Effective-Dated Tax Rules",
+    "slug": "effective-dated-tax-rules",
+    "path": "/vat-tax/effective-dated-tax-rules",
+    "resource": "vat-tax",
+    "description": "Effective-Dated Tax Rules workspace for VAT & Tax Records."
+  },
+  {
+    "id": "SCR-175",
+    "module": "VAT & Tax Records",
+    "moduleSlug": "vat-tax",
+    "title": "Tax Classification Mapping",
+    "slug": "tax-classification-mapping",
+    "path": "/vat-tax/tax-classification-mapping",
+    "resource": "vat-tax",
+    "description": "Tax Classification Mapping workspace for VAT & Tax Records."
+  },
+  {
+    "id": "SCR-176",
+    "module": "VAT & Tax Records",
+    "moduleSlug": "vat-tax",
+    "title": "Tax Transaction Register",
+    "slug": "tax-transaction-register",
+    "path": "/vat-tax/tax-transaction-register",
+    "resource": "vat-tax",
+    "description": "Tax Transaction Register workspace for VAT & Tax Records."
+  },
+  {
+    "id": "SCR-177",
+    "module": "VAT & Tax Records",
+    "moduleSlug": "vat-tax",
+    "title": "Tax Document Register",
+    "slug": "tax-document-register",
+    "path": "/vat-tax/tax-document-register",
+    "resource": "vat-tax",
+    "description": "Tax Document Register workspace for VAT & Tax Records."
+  },
+  {
+    "id": "SCR-178",
+    "module": "VAT & Tax Records",
+    "moduleSlug": "vat-tax",
+    "title": "Input/Output Tax Reconciliation",
+    "slug": "input-output-tax-reconciliation",
+    "path": "/vat-tax/input-output-tax-reconciliation",
+    "resource": "vat-tax",
+    "description": "Input/Output Tax Reconciliation workspace for VAT & Tax Records."
+  },
+  {
+    "id": "SCR-179",
+    "module": "VAT & Tax Records",
+    "moduleSlug": "vat-tax",
+    "title": "Credit/Debit Note Tax Review",
+    "slug": "credit-debit-note-tax-review",
+    "path": "/vat-tax/credit-debit-note-tax-review",
+    "resource": "vat-tax",
+    "description": "Credit/Debit Note Tax Review workspace for VAT & Tax Records."
+  },
+  {
+    "id": "SCR-180",
+    "module": "VAT & Tax Records",
+    "moduleSlug": "vat-tax",
+    "title": "Tax Report Export",
+    "slug": "tax-report-export",
+    "path": "/vat-tax/tax-report-export",
+    "resource": "vat-tax",
+    "description": "Tax Report Export workspace for VAT & Tax Records."
+  },
+  {
+    "id": "SCR-181",
+    "module": "VAT & Tax Records",
+    "moduleSlug": "vat-tax",
+    "title": "Tax Rule Change History",
+    "slug": "tax-rule-change-history",
+    "path": "/vat-tax/tax-rule-change-history",
+    "resource": "vat-tax",
+    "description": "Tax Rule Change History workspace for VAT & Tax Records."
+  },
+  {
+    "id": "SCR-182",
+    "module": "VAT & Tax Records",
+    "moduleSlug": "vat-tax",
+    "title": "Tax Compliance Checklist",
+    "slug": "tax-compliance-checklist",
+    "path": "/vat-tax/tax-compliance-checklist",
+    "resource": "vat-tax",
+    "description": "Tax Compliance Checklist workspace for VAT & Tax Records."
+  },
+  {
+    "id": "SCR-183",
+    "module": "CRM & Customer Management",
+    "moduleSlug": "crm-customers",
+    "title": "CRM Dashboard",
+    "slug": "crm-dashboard",
+    "path": "/crm-customers/crm-dashboard",
+    "resource": "crm-customers",
+    "description": "CRM Dashboard workspace for CRM & Customer Management."
+  },
+  {
+    "id": "SCR-184",
+    "module": "CRM & Customer Management",
+    "moduleSlug": "crm-customers",
+    "title": "Customer Profile",
+    "slug": "customer-profile",
+    "path": "/crm-customers/customer-profile",
+    "resource": "crm-customers",
+    "description": "Customer Profile workspace for CRM & Customer Management."
+  },
+  {
+    "id": "SCR-185",
+    "module": "CRM & Customer Management",
+    "moduleSlug": "crm-customers",
+    "title": "Customer Contacts & Addresses",
+    "slug": "customer-contacts-and-addresses",
+    "path": "/crm-customers/customer-contacts-and-addresses",
+    "resource": "crm-customers",
+    "description": "Customer Contacts & Addresses workspace for CRM & Customer Management."
+  },
+  {
+    "id": "SCR-186",
+    "module": "CRM & Customer Management",
+    "moduleSlug": "crm-customers",
+    "title": "Customer Segmentation",
+    "slug": "customer-segmentation",
+    "path": "/crm-customers/customer-segmentation",
+    "resource": "crm-customers",
+    "description": "Customer Segmentation workspace for CRM & Customer Management."
+  },
+  {
+    "id": "SCR-187",
+    "module": "CRM & Customer Management",
+    "moduleSlug": "crm-customers",
+    "title": "Opportunity Pipeline",
+    "slug": "opportunity-pipeline",
+    "path": "/crm-customers/opportunity-pipeline",
+    "resource": "crm-customers",
+    "description": "Opportunity Pipeline workspace for CRM & Customer Management."
+  },
+  {
+    "id": "SCR-188",
+    "module": "CRM & Customer Management",
+    "moduleSlug": "crm-customers",
+    "title": "Customer Activity Timeline",
+    "slug": "customer-activity-timeline",
+    "path": "/crm-customers/customer-activity-timeline",
+    "resource": "crm-customers",
+    "description": "Customer Activity Timeline workspace for CRM & Customer Management."
+  },
+  {
+    "id": "SCR-189",
+    "module": "CRM & Customer Management",
+    "moduleSlug": "crm-customers",
+    "title": "Complaints & Disputes",
+    "slug": "complaints-and-disputes",
+    "path": "/crm-customers/complaints-and-disputes",
+    "resource": "crm-customers",
+    "description": "Complaints & Disputes workspace for CRM & Customer Management."
+  },
+  {
+    "id": "SCR-190",
+    "module": "CRM & Customer Management",
+    "moduleSlug": "crm-customers",
+    "title": "Customer Profitability",
+    "slug": "customer-profitability",
+    "path": "/crm-customers/customer-profitability",
+    "resource": "crm-customers",
+    "description": "Customer Profitability workspace for CRM & Customer Management."
+  },
+  {
+    "id": "SCR-191",
+    "module": "CRM & Customer Management",
+    "moduleSlug": "crm-customers",
+    "title": "Territory & Sales Assignment",
+    "slug": "territory-and-sales-assignment",
+    "path": "/crm-customers/territory-and-sales-assignment",
+    "resource": "crm-customers",
+    "description": "Territory & Sales Assignment workspace for CRM & Customer Management."
+  },
+  {
+    "id": "SCR-192",
+    "module": "CRM & Customer Management",
+    "moduleSlug": "crm-customers",
+    "title": "Customer Duplicate Review",
+    "slug": "customer-duplicate-review",
+    "path": "/crm-customers/customer-duplicate-review",
+    "resource": "crm-customers",
+    "description": "Customer Duplicate Review workspace for CRM & Customer Management."
+  },
+  {
+    "id": "SCR-193",
+    "module": "Book Fair & Events",
+    "moduleSlug": "book-fair-events",
+    "title": "Fair/Event List",
+    "slug": "fair-event-list",
+    "path": "/book-fair-events/fair-event-list",
+    "resource": "book-fair-events",
+    "description": "Fair/Event List workspace for Book Fair & Events."
+  },
+  {
+    "id": "SCR-194",
+    "module": "Book Fair & Events",
+    "moduleSlug": "book-fair-events",
+    "title": "Create/Edit Fair",
+    "slug": "create-edit-fair",
+    "path": "/book-fair-events/create-edit-fair",
+    "resource": "book-fair-events",
+    "description": "Create/Edit Fair workspace for Book Fair & Events."
+  },
+  {
+    "id": "SCR-195",
+    "module": "Book Fair & Events",
+    "moduleSlug": "book-fair-events",
+    "title": "Fair Setup & Booth",
+    "slug": "fair-setup-and-booth",
+    "path": "/book-fair-events/fair-setup-and-booth",
+    "resource": "book-fair-events",
+    "description": "Fair Setup & Booth workspace for Book Fair & Events."
+  },
+  {
+    "id": "SCR-196",
+    "module": "Book Fair & Events",
+    "moduleSlug": "book-fair-events",
+    "title": "Fair Stock Allocation",
+    "slug": "fair-stock-allocation",
+    "path": "/book-fair-events/fair-stock-allocation",
+    "resource": "book-fair-events",
+    "description": "Fair Stock Allocation workspace for Book Fair & Events."
+  },
+  {
+    "id": "SCR-197",
+    "module": "Book Fair & Events",
+    "moduleSlug": "book-fair-events",
+    "title": "Fair Sales Entry",
+    "slug": "fair-sales-entry",
+    "path": "/book-fair-events/fair-sales-entry",
+    "resource": "book-fair-events",
+    "description": "Fair Sales Entry workspace for Book Fair & Events."
+  },
+  {
+    "id": "SCR-199",
+    "module": "Book Fair & Events",
+    "moduleSlug": "book-fair-events",
+    "title": "Post-Fair Stock Reconciliation",
+    "slug": "post-fair-stock-reconciliation",
+    "path": "/book-fair-events/post-fair-stock-reconciliation",
+    "resource": "book-fair-events",
+    "description": "Post-Fair Stock Reconciliation workspace for Book Fair & Events."
+  },
+  {
+    "id": "SCR-200",
+    "module": "Book Fair & Events",
+    "moduleSlug": "book-fair-events",
+    "title": "Fair Reports",
+    "slug": "fair-reports",
+    "path": "/book-fair-events/fair-reports",
+    "resource": "book-fair-events",
+    "description": "Comprehensive Fair Performance, Sales, P&L Profitability & Operations Report workspace for Book Fair & Events."
+  },
+  {
+    "id": "SCR-203",
+    "module": "Marketing & Promotions",
+    "moduleSlug": "marketing-promotions",
+    "title": "Release Calendar",
+    "slug": "release-calendar",
+    "path": "/marketing-promotions/release-calendar",
+    "resource": "marketing-promotions",
+    "description": "Release Calendar workspace for Marketing & Promotions."
+  },
+  {
+    "id": "SCR-204",
+    "module": "Marketing & Promotions",
+    "moduleSlug": "marketing-promotions",
+    "title": "Campaign List",
+    "slug": "campaign-list",
+    "path": "/marketing-promotions/campaign-list",
+    "resource": "marketing-promotions",
+    "description": "Campaign List workspace for Marketing & Promotions."
+  },
+  {
+    "id": "SCR-205",
+    "module": "Marketing & Promotions",
+    "moduleSlug": "marketing-promotions",
+    "title": "Create Campaign",
+    "slug": "create-campaign",
+    "path": "/marketing-promotions/create-campaign",
+    "resource": "marketing-promotions",
+    "description": "Create Campaign workspace for Marketing & Promotions."
+  },
+  {
+    "id": "SCR-206",
+    "module": "Marketing & Promotions",
+    "moduleSlug": "marketing-promotions",
+    "title": "Promotion & Discount Rules",
+    "slug": "promotion-and-discount-rules",
+    "path": "/marketing-promotions/promotion-and-discount-rules",
+    "resource": "marketing-promotions",
+    "description": "Promotion & Discount Rules workspace for Marketing & Promotions."
+  },
+  {
+    "id": "SCR-207",
+    "module": "Marketing & Promotions",
+    "moduleSlug": "marketing-promotions",
+    "title": "Event/Launch Planner",
+    "slug": "event-launch-planner",
+    "path": "/marketing-promotions/event-launch-planner",
+    "resource": "marketing-promotions",
+    "description": "Event/Launch Planner workspace for Marketing & Promotions."
+  },
+  {
+    "id": "SCR-208",
+    "module": "Marketing & Promotions",
+    "moduleSlug": "marketing-promotions",
+    "title": "Campaign Performance",
+    "slug": "campaign-performance",
+    "path": "/marketing-promotions/campaign-performance",
+    "resource": "marketing-promotions",
+    "description": "Campaign Performance workspace for Marketing & Promotions."
+  },
+  {
+    "id": "SCR-209",
+    "module": "Marketing & Promotions",
+    "moduleSlug": "marketing-promotions",
+    "title": "Campaign Budget Approval",
+    "slug": "campaign-budget-approval",
+    "path": "/marketing-promotions/campaign-budget-approval",
+    "resource": "marketing-promotions",
+    "description": "Campaign Budget Approval workspace for Marketing & Promotions."
+  },
+  {
+    "id": "SCR-210",
+    "module": "Marketing & Promotions",
+    "moduleSlug": "marketing-promotions",
+    "title": "Promotion Conflict Review",
+    "slug": "promotion-conflict-review",
+    "path": "/marketing-promotions/promotion-conflict-review",
+    "resource": "marketing-promotions",
+    "description": "Promotion Conflict Review workspace for Marketing & Promotions."
+  },
+  {
+    "id": "SCR-211",
+    "module": "E-commerce & Digital Publishing",
+    "moduleSlug": "ecommerce-digital",
+    "title": "Channel Integration Settings",
+    "slug": "channel-integration-settings",
+    "path": "/ecommerce-digital/channel-integration-settings",
+    "resource": "ecommerce-digital",
+    "description": "Channel Integration Settings workspace for E-commerce & Digital Publishing."
+  },
+  {
+    "id": "SCR-212",
+    "module": "E-commerce & Digital Publishing",
+    "moduleSlug": "ecommerce-digital",
+    "title": "Online Order Inbox",
+    "slug": "online-order-inbox",
+    "path": "/ecommerce-digital/online-order-inbox",
+    "resource": "ecommerce-digital",
+    "description": "Online Order Inbox workspace for E-commerce & Digital Publishing."
+  },
+  {
+    "id": "SCR-213",
+    "module": "E-commerce & Digital Publishing",
+    "moduleSlug": "ecommerce-digital",
+    "title": "Online Order Detail",
+    "slug": "online-order-detail",
+    "path": "/ecommerce-digital/online-order-detail",
+    "resource": "ecommerce-digital",
+    "description": "Online Order Detail workspace for E-commerce & Digital Publishing."
+  },
+  {
+    "id": "SCR-214",
+    "module": "E-commerce & Digital Publishing",
+    "moduleSlug": "ecommerce-digital",
+    "title": "Payment Reconciliation",
+    "slug": "payment-reconciliation",
+    "path": "/ecommerce-digital/payment-reconciliation",
+    "resource": "ecommerce-digital",
+    "description": "Payment Reconciliation workspace for E-commerce & Digital Publishing."
+  },
+  {
+    "id": "SCR-215",
+    "module": "E-commerce & Digital Publishing",
+    "moduleSlug": "ecommerce-digital",
+    "title": "Fulfilment Queue",
+    "slug": "fulfilment-queue",
+    "path": "/ecommerce-digital/fulfilment-queue",
+    "resource": "ecommerce-digital",
+    "description": "Fulfilment Queue workspace for E-commerce & Digital Publishing."
+  },
+  {
+    "id": "SCR-216",
+    "module": "E-commerce & Digital Publishing",
+    "moduleSlug": "ecommerce-digital",
+    "title": "Refund & Cancellation Queue",
+    "slug": "refund-and-cancellation-queue",
+    "path": "/ecommerce-digital/refund-and-cancellation-queue",
+    "resource": "ecommerce-digital",
+    "description": "Refund & Cancellation Queue workspace for E-commerce & Digital Publishing."
+  },
+  {
+    "id": "SCR-217",
+    "module": "E-commerce & Digital Publishing",
+    "moduleSlug": "ecommerce-digital",
+    "title": "Digital Product/Access Management",
+    "slug": "digital-product-access-management",
+    "path": "/ecommerce-digital/digital-product-access-management",
+    "resource": "ecommerce-digital",
+    "description": "Digital Product/Access Management workspace for E-commerce & Digital Publishing."
+  },
+  {
+    "id": "SCR-218",
+    "module": "E-commerce & Digital Publishing",
+    "moduleSlug": "ecommerce-digital",
+    "title": "Digital Sales & Royalty Report",
+    "slug": "digital-sales-and-royalty-report",
+    "path": "/ecommerce-digital/digital-sales-and-royalty-report",
+    "resource": "ecommerce-digital",
+    "description": "Digital Sales & Royalty Report workspace for E-commerce & Digital Publishing."
+  },
+  {
+    "id": "SCR-219",
+    "module": "E-commerce & Digital Publishing",
+    "moduleSlug": "ecommerce-digital",
+    "title": "Webhook Delivery Monitor",
+    "slug": "webhook-delivery-monitor",
+    "path": "/ecommerce-digital/webhook-delivery-monitor",
+    "resource": "ecommerce-digital",
+    "description": "Webhook Delivery Monitor workspace for E-commerce & Digital Publishing."
+  },
+  {
+    "id": "SCR-220",
+    "module": "E-commerce & Digital Publishing",
+    "moduleSlug": "ecommerce-digital",
+    "title": "Channel Sync Exceptions",
+    "slug": "channel-sync-exceptions",
+    "path": "/ecommerce-digital/channel-sync-exceptions",
+    "resource": "ecommerce-digital",
+    "description": "Channel Sync Exceptions workspace for E-commerce & Digital Publishing."
+  },
+  {
+    "id": "SCR-221",
+    "module": "HR & Payroll",
+    "moduleSlug": "hr-payroll",
+    "title": "Employee Directory",
+    "slug": "employee-directory",
+    "path": "/hr-payroll/employee-directory",
+    "resource": "hr-payroll",
+    "description": "Employee Directory workspace for HR & Payroll."
+  },
+  {
+    "id": "SCR-222",
+    "module": "HR & Payroll",
+    "moduleSlug": "hr-payroll",
+    "title": "Employee Profile",
+    "slug": "employee-profile",
+    "path": "/hr-payroll/employee-profile",
+    "resource": "hr-payroll",
+    "description": "Employee Profile workspace for HR & Payroll."
+  },
+  {
+    "id": "SCR-223",
+    "module": "HR & Payroll",
+    "moduleSlug": "hr-payroll",
+    "title": "Department & Position Setup",
+    "slug": "department-and-position-setup",
+    "path": "/hr-payroll/department-and-position-setup",
+    "resource": "hr-payroll",
+    "description": "Department & Position Setup workspace for HR & Payroll."
+  },
+  {
+    "id": "SCR-224",
+    "module": "HR & Payroll",
+    "moduleSlug": "hr-payroll",
+    "title": "Attendance/Leave Register",
+    "slug": "attendance-leave-register",
+    "path": "/hr-payroll/attendance-leave-register",
+    "resource": "hr-payroll",
+    "description": "Attendance/Leave Register workspace for HR & Payroll."
+  },
+  {
+    "id": "SCR-225",
+    "module": "HR & Payroll",
+    "moduleSlug": "hr-payroll",
+    "title": "Payroll Component Setup",
+    "slug": "payroll-component-setup",
+    "path": "/hr-payroll/payroll-component-setup",
+    "resource": "hr-payroll",
+    "description": "Payroll Component Setup workspace for HR & Payroll."
+  },
+  {
+    "id": "SCR-226",
+    "module": "HR & Payroll",
+    "moduleSlug": "hr-payroll",
+    "title": "Payroll Processing & Review",
+    "slug": "payroll-processing-and-review",
+    "path": "/hr-payroll/payroll-processing-and-review",
+    "resource": "hr-payroll",
+    "description": "Payroll Processing & Review workspace for HR & Payroll."
+  },
+  {
+    "id": "SCR-227",
+    "module": "HR & Payroll",
+    "moduleSlug": "hr-payroll",
+    "title": "Payroll Approval & Lock",
+    "slug": "payroll-approval-and-lock",
+    "path": "/hr-payroll/payroll-approval-and-lock",
+    "resource": "hr-payroll",
+    "description": "Payroll Approval & Lock workspace for HR & Payroll."
+  },
+  {
+    "id": "SCR-228",
+    "module": "HR & Payroll",
+    "moduleSlug": "hr-payroll",
+    "title": "Payroll Journal & Payslip Register",
+    "slug": "payroll-journal-and-payslip-register",
+    "path": "/hr-payroll/payroll-journal-and-payslip-register",
+    "resource": "hr-payroll",
+    "description": "Payroll Journal & Payslip Register workspace for HR & Payroll."
+  },
+  {
+    "id": "SCR-229",
+    "module": "HR & Payroll",
+    "moduleSlug": "hr-payroll",
+    "title": "Employee Advance & Claims",
+    "slug": "employee-advance-and-claims",
+    "path": "/hr-payroll/employee-advance-and-claims",
+    "resource": "hr-payroll",
+    "description": "Employee Advance & Claims workspace for HR & Payroll."
+  },
+  {
+    "id": "SCR-230",
+    "module": "HR & Payroll",
+    "moduleSlug": "hr-payroll",
+    "title": "Payroll Audit History",
+    "slug": "payroll-audit-history",
+    "path": "/hr-payroll/payroll-audit-history",
+    "resource": "hr-payroll",
+    "description": "Payroll Audit History workspace for HR & Payroll."
+  },
+  {
+    "id": "SCR-231",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Report Center",
+    "slug": "report-center",
+    "path": "/reports-analytics/report-center",
+    "resource": "reports-analytics",
+    "description": "Report Center workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-232",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Sales & Returns Reports",
+    "slug": "sales-and-returns-reports",
+    "path": "/reports-analytics/sales-and-returns-reports",
+    "resource": "reports-analytics",
+    "description": "Sales & Returns Reports workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-233",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Inventory Reports",
+    "slug": "inventory-reports",
+    "path": "/reports-analytics/inventory-reports",
+    "resource": "reports-analytics",
+    "description": "Inventory Reports workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-234",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Production Cost Reports",
+    "slug": "production-cost-reports",
+    "path": "/reports-analytics/production-cost-reports",
+    "resource": "reports-analytics",
+    "description": "Production Cost Reports workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-235",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Royalty Liability Reports",
+    "slug": "royalty-liability-reports",
+    "path": "/reports-analytics/royalty-liability-reports",
+    "resource": "reports-analytics",
+    "description": "Royalty Liability Reports workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-236",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Customer/Supplier Ageing Reports",
+    "slug": "customer-supplier-ageing-reports",
+    "path": "/reports-analytics/customer-supplier-ageing-reports",
+    "resource": "reports-analytics",
+    "description": "Customer/Supplier Ageing Reports workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-237",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Financial Statements",
+    "slug": "financial-statements",
+    "path": "/reports-analytics/financial-statements",
+    "resource": "reports-analytics",
+    "description": "Financial Statements workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-238",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Book/Fair Profitability Reports",
+    "slug": "book-fair-profitability-reports",
+    "path": "/reports-analytics/book-fair-profitability-reports",
+    "resource": "reports-analytics",
+    "description": "Book/Fair Profitability Reports workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-239",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Scheduled Reports",
+    "slug": "scheduled-reports",
+    "path": "/reports-analytics/scheduled-reports",
+    "resource": "reports-analytics",
+    "description": "Scheduled Reports workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-240",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Export Job History",
+    "slug": "export-job-history",
+    "path": "/reports-analytics/export-job-history",
+    "resource": "reports-analytics",
+    "description": "Export Job History workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-241",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Data Quality & Reconciliation Report",
+    "slug": "data-quality-and-reconciliation-report",
+    "path": "/reports-analytics/data-quality-and-reconciliation-report",
+    "resource": "reports-analytics",
+    "description": "Data Quality & Reconciliation Report workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-242",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Operational KPI Dashboard",
+    "slug": "operational-kpi-dashboard",
+    "path": "/reports-analytics/operational-kpi-dashboard",
+    "resource": "reports-analytics",
+    "description": "Operational KPI Dashboard workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-243",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Publisher/Imprint Performance",
+    "slug": "publisher-imprint-performance",
+    "path": "/reports-analytics/publisher-imprint-performance",
+    "resource": "reports-analytics",
+    "description": "Publisher/Imprint Performance workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-244",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Edition Lifecycle Analytics",
+    "slug": "edition-lifecycle-analytics",
+    "path": "/reports-analytics/edition-lifecycle-analytics",
+    "resource": "reports-analytics",
+    "description": "Edition Lifecycle Analytics workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-245",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Sales Forecast Report",
+    "slug": "sales-forecast-report",
+    "path": "/reports-analytics/sales-forecast-report",
+    "resource": "reports-analytics",
+    "description": "Sales Forecast Report workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-246",
+    "module": "Reports & Analytics",
+    "moduleSlug": "reports-analytics",
+    "title": "Report Access Audit",
+    "slug": "report-access-audit",
+    "path": "/reports-analytics/report-access-audit",
+    "resource": "reports-analytics",
+    "description": "Report Access Audit workspace for Reports & Analytics."
+  },
+  {
+    "id": "SCR-247",
+    "module": "Workflow & Approvals",
+    "moduleSlug": "workflow-approvals",
+    "title": "Approval Inbox",
+    "slug": "approval-inbox",
+    "path": "/workflow-approvals/approval-inbox",
+    "resource": "workflow-approvals",
+    "description": "Approval Inbox workspace for Workflow & Approvals."
+  },
+  {
+    "id": "SCR-248",
+    "module": "Workflow & Approvals",
+    "moduleSlug": "workflow-approvals",
+    "title": "Approval Rule Builder",
+    "slug": "approval-rule-builder",
+    "path": "/workflow-approvals/approval-rule-builder",
+    "resource": "workflow-approvals",
+    "description": "Approval Rule Builder workspace for Workflow & Approvals."
+  },
+  {
+    "id": "SCR-249",
+    "module": "Workflow & Approvals",
+    "moduleSlug": "workflow-approvals",
+    "title": "Approval Matrix",
+    "slug": "approval-matrix",
+    "path": "/workflow-approvals/approval-matrix",
+    "resource": "workflow-approvals",
+    "description": "Approval Matrix workspace for Workflow & Approvals."
+  },
+  {
+    "id": "SCR-250",
+    "module": "Workflow & Approvals",
+    "moduleSlug": "workflow-approvals",
+    "title": "Delegation Setup",
+    "slug": "delegation-setup",
+    "path": "/workflow-approvals/delegation-setup",
+    "resource": "workflow-approvals",
+    "description": "Delegation Setup workspace for Workflow & Approvals."
+  },
+  {
+    "id": "SCR-251",
+    "module": "Workflow & Approvals",
+    "moduleSlug": "workflow-approvals",
+    "title": "Workflow History",
+    "slug": "workflow-history",
+    "path": "/workflow-approvals/workflow-history",
+    "resource": "workflow-approvals",
+    "description": "Workflow History workspace for Workflow & Approvals."
+  },
+  {
+    "id": "SCR-252",
+    "module": "Workflow & Approvals",
+    "moduleSlug": "workflow-approvals",
+    "title": "Overdue & Escalation Report",
+    "slug": "overdue-and-escalation-report",
+    "path": "/workflow-approvals/overdue-and-escalation-report",
+    "resource": "workflow-approvals",
+    "description": "Overdue & Escalation Report workspace for Workflow & Approvals."
+  },
+  {
+    "id": "SCR-253",
+    "module": "Workflow & Approvals",
+    "moduleSlug": "workflow-approvals",
+    "title": "Approval Limit Simulator",
+    "slug": "approval-limit-simulator",
+    "path": "/workflow-approvals/approval-limit-simulator",
+    "resource": "workflow-approvals",
+    "description": "Approval Limit Simulator workspace for Workflow & Approvals."
+  },
+  {
+    "id": "SCR-254",
+    "module": "Workflow & Approvals",
+    "moduleSlug": "workflow-approvals",
+    "title": "Workflow Exception Queue",
+    "slug": "workflow-exception-queue",
+    "path": "/workflow-approvals/workflow-exception-queue",
+    "resource": "workflow-approvals",
+    "description": "Workflow Exception Queue workspace for Workflow & Approvals."
+  },
+  {
+    "id": "SCR-255",
+    "module": "Notifications & Tasks",
+    "moduleSlug": "notifications-tasks",
+    "title": "Notification Center",
+    "slug": "notification-center",
+    "path": "/notifications-tasks/notification-center",
+    "resource": "notifications-tasks",
+    "description": "Notification Center workspace for Notifications & Tasks."
+  },
+  {
+    "id": "SCR-256",
+    "module": "Notifications & Tasks",
+    "moduleSlug": "notifications-tasks",
+    "title": "Task Inbox",
+    "slug": "task-inbox",
+    "path": "/notifications-tasks/task-inbox",
+    "resource": "notifications-tasks",
+    "description": "Task Inbox workspace for Notifications & Tasks."
+  },
+  {
+    "id": "SCR-257",
+    "module": "Notifications & Tasks",
+    "moduleSlug": "notifications-tasks",
+    "title": "Alert Rules",
+    "slug": "alert-rules",
+    "path": "/notifications-tasks/alert-rules",
+    "resource": "notifications-tasks",
+    "description": "Alert Rules workspace for Notifications & Tasks."
+  },
+  {
+    "id": "SCR-258",
+    "module": "Notifications & Tasks",
+    "moduleSlug": "notifications-tasks",
+    "title": "Notification Delivery History",
+    "slug": "notification-delivery-history",
+    "path": "/notifications-tasks/notification-delivery-history",
+    "resource": "notifications-tasks",
+    "description": "Notification Delivery History workspace for Notifications & Tasks."
+  },
+  {
+    "id": "SCR-259",
+    "module": "Notifications & Tasks",
+    "moduleSlug": "notifications-tasks",
+    "title": "Scheduled Job Monitor",
+    "slug": "scheduled-job-monitor",
+    "path": "/notifications-tasks/scheduled-job-monitor",
+    "resource": "notifications-tasks",
+    "description": "Scheduled Job Monitor workspace for Notifications & Tasks."
+  },
+  {
+    "id": "SCR-260",
+    "module": "Notifications & Tasks",
+    "moduleSlug": "notifications-tasks",
+    "title": "User Notification Preferences",
+    "slug": "user-notification-preferences",
+    "path": "/notifications-tasks/user-notification-preferences",
+    "resource": "notifications-tasks",
+    "description": "User Notification Preferences workspace for Notifications & Tasks."
+  },
+  {
+    "id": "SCR-261",
+    "module": "Notifications & Tasks",
+    "moduleSlug": "notifications-tasks",
+    "title": "Notification Templates",
+    "slug": "notification-templates",
+    "path": "/notifications-tasks/notification-templates",
+    "resource": "notifications-tasks",
+    "description": "Notification Templates workspace for Notifications & Tasks."
+  },
+  {
+    "id": "SCR-262",
+    "module": "Notifications & Tasks",
+    "moduleSlug": "notifications-tasks",
+    "title": "Alert Delivery Preferences",
+    "slug": "alert-delivery-preferences",
+    "path": "/notifications-tasks/alert-delivery-preferences",
+    "resource": "notifications-tasks",
+    "description": "Alert Delivery Preferences workspace for Notifications & Tasks."
+  },
+  {
+    "id": "SCR-263",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Organization Setup",
+    "slug": "organization-setup",
+    "path": "/administration-security/organization-setup",
+    "resource": "administration-security",
+    "description": "Organization Setup workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-264",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Branch & Warehouse Setup",
+    "slug": "branch-and-warehouse-setup",
+    "path": "/administration-security/branch-and-warehouse-setup",
+    "resource": "administration-security",
+    "description": "Branch & Warehouse Setup workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-265",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "User Directory",
+    "slug": "user-directory",
+    "path": "/administration-security/user-directory",
+    "resource": "administration-security",
+    "description": "User Directory workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-266",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "User Profile & Access",
+    "slug": "user-profile-and-access",
+    "path": "/administration-security/user-profile-and-access",
+    "resource": "administration-security",
+    "description": "User Profile & Access workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-267",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Role & Permission Matrix",
+    "slug": "role-and-permission-matrix",
+    "path": "/administration-security/role-and-permission-matrix",
+    "resource": "administration-security",
+    "description": "Role & Permission Matrix workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-268",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Fiscal Year & Period Controls",
+    "slug": "fiscal-year-and-period-controls",
+    "path": "/administration-security/fiscal-year-and-period-controls",
+    "resource": "administration-security",
+    "description": "Fiscal Year & Period Controls workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-269",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Document Numbering Setup",
+    "slug": "document-numbering-setup",
+    "path": "/administration-security/document-numbering-setup",
+    "resource": "administration-security",
+    "description": "Document Numbering Setup workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-270",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Language & Localization Settings",
+    "slug": "language-and-localization-settings",
+    "path": "/administration-security/language-and-localization-settings",
+    "resource": "administration-security",
+    "description": "Language & Localization Settings workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-271",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Integration & Webhook Settings",
+    "slug": "integration-and-webhook-settings",
+    "path": "/administration-security/integration-and-webhook-settings",
+    "resource": "administration-security",
+    "description": "Integration & Webhook Settings workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-272",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Audit Log Explorer",
+    "slug": "audit-log-explorer",
+    "path": "/administration-security/audit-log-explorer",
+    "resource": "administration-security",
+    "description": "Audit Log Explorer workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-273",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Backup & Restore Operations",
+    "slug": "backup-and-restore-operations",
+    "path": "/administration-security/backup-and-restore-operations",
+    "resource": "administration-security",
+    "description": "Backup & Restore Operations workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-274",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "System Health & Job Monitoring",
+    "slug": "system-health-and-job-monitoring",
+    "path": "/administration-security/system-health-and-job-monitoring",
+    "resource": "administration-security",
+    "description": "System Health & Job Monitoring workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-275",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Module Feature Configuration",
+    "slug": "module-feature-configuration",
+    "path": "/administration-security/module-feature-configuration",
+    "resource": "administration-security",
+    "description": "Module Feature Configuration workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-276",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Approval Separation-of-Duties Policy",
+    "slug": "approval-separation-of-duties-policy",
+    "path": "/administration-security/approval-separation-of-duties-policy",
+    "resource": "administration-security",
+    "description": "Approval Separation-of-Duties Policy workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-277",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Data Retention & Export Policy",
+    "slug": "data-retention-and-export-policy",
+    "path": "/administration-security/data-retention-and-export-policy",
+    "resource": "administration-security",
+    "description": "Data Retention & Export Policy workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-278",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Session & MFA Policy",
+    "slug": "session-and-mfa-policy",
+    "path": "/administration-security/session-and-mfa-policy",
+    "resource": "administration-security",
+    "description": "Session & MFA Policy workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-279",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "API Client Management",
+    "slug": "api-client-management",
+    "path": "/administration-security/api-client-management",
+    "resource": "administration-security",
+    "description": "API Client Management workspace for Administration & Security."
+  },
+  {
+    "id": "SCR-280",
+    "module": "Administration & Security",
+    "moduleSlug": "administration-security",
+    "title": "Security Incident Register",
+    "slug": "security-incident-register",
+    "path": "/administration-security/security-incident-register",
+    "resource": "administration-security",
+    "description": "Security Incident Register workspace for Administration & Security."
+  }
+]
