@@ -38,8 +38,8 @@ const modulePresentation: Record<string, { icon: LucideIcon; description: string
 };
 
 export default function LoginPage() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('admin@publishing-erp.local');
+  const [password, setPassword] = useState('DemoPass123!');
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
   const router = useRouter();
